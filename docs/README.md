@@ -6,6 +6,8 @@ The `main.cob` file coordinates input, calls operations, and prints the accounti
 
 The `operations.cob` file contains the business rules for debit and credit calculations.
 
+This explanation supports the modernization plan for the JavaScript replacement.
+
 ```mermaid
 flowchart TD
   A[data.cob] --> B[main.cob]
